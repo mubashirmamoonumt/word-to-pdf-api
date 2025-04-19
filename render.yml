@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: word-to-pdf-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
